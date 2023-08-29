@@ -1,0 +1,191 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-bg {
+    background-color: #1a1110;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+.nav-link {
+    color: white;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    /* background-color: white;
+    color: black; */
+    color: #FFA3FD;
+}
+
+.active {
+    background-color: white;
+    color: black;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    font-size: 70px;
+    font-family: Noto Sans, sans-serif;
+    background-color: #191825;
+}
+
+.wrapper {
+    display: inline-block;
+    height: auto;
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    /* responsive image change width to 100% and height to 250px */
+}
+
+.wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.center-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+#section_start {
+    margin-top: 70px;
+}
+
+section#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('assets/images/new\ my\ image.jpg');
+    background-size: cover;
+}
+
+section#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#about h5 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+section#about p {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+section#skills p {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+section#skills .card {
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+}
+
+section#resume {
+    height: 130vh;
+}
+
+section#resume h5 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+section#resume ul li {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+section#resume .card {
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+}
+
+section#services .card {
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+}
+
+section#testimonial .card {
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+}
+
+section#contact input,
+textarea {
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+}
+
+section#contact ::placeholder {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+@media only screen and (max-width: 430px) {
+
+    .navbar-nav {
+        background: #333;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: 250px;
+    }
+
+    #section_start {
+        margin-top: 25px;
+    }
+
+    section#home {
+        background-position: center;
+    }
+
+    section#about {
+        height: 150vh;
+    }
+
+    section#skills {
+        height: 250vh;
+    }
+
+    section#skills h2 {
+        margin-top: 50px;
+    }
+
+    section#resume {
+        height: 250vh;
+    }
+
+    section#services {
+        height: 270vh;
+    }
+
+    section#testimonial {
+        height: 160vh;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .wrapper {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .wrapper {
+        margin-top: 100px;
+    }
+}
